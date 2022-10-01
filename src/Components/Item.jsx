@@ -1,3 +1,5 @@
+import "../Style/item.scss";
+
 export default function Item (props) {
     return (
         <div className="item">
