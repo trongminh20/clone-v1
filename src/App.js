@@ -1,11 +1,16 @@
 import { useContext } from "react";
 import {AppContext} from "./States/AppContext";
+import Header from "./Components/Header";
+import List from "./Components/List";
+import "./Style/app.scss";
+
 function App() {
   const {initSample} = useContext(AppContext);
   const [sample, setSample] = initSample;
   return (
       <section class="app">
-          <h1>{sample}</h1>
+        <Header />         
+        <List/>
       </section>
   );
 }

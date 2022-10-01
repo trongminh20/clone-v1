@@ -1,0 +1,8 @@
+.itemList{
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item{
+    width: 25%;
+}
